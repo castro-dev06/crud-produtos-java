@@ -70,7 +70,7 @@
                     case 2:
                         System.out.println("--- ATUALIZAR PRODUTO ---");
 
-                        System.out.print("Informe o ID do produto: ");
+                        System.out.print("ID do produto: ");
                         int idBuscaProdutoAtualizar = sc.nextInt();
 
                         Produto pAtualizar = list.stream().filter(x -> x.getId() == idBuscaProdutoAtualizar).findFirst().orElse(null);
